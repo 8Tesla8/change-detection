@@ -7,8 +7,20 @@
 
 <br> <br>
 
-<button (click)="createNewUserAndChangeName()"> create new user and change name </button>
-<button (click)="createNewUserAndChangeSurname()"> create new user and change surname </button>
+<button (click)="createNewUserAndChangeName()"> 
+  create new user and change name 
+</button>
+<button (click)="createNewUserAndChangeSurname()"> 
+  create new user and change surname 
+</button>
+
+<br> <br>
+<button (click)="changeNameBySetTimeout()"> 
+  change name by setTimeout 
+</button>
+<button (click)="changeNameBySetTimeoutWithChangeDetectorRef()"> 
+  change name by setTimeout with ChangeDetectorRef
+</button>
 
 
 <app-sub [user]="user"></app-sub>
